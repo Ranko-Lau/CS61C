@@ -2,7 +2,11 @@
 set -euo pipefail
 
 PROGRAM="${1:-all}"
+<<<<<<< HEAD
 SEMESTER=sp25
+=======
+SEMESTER=fa24
+>>>>>>> 63d8138dc1c386640014039b6fbff93c7b65ae0c
 
 if [[ "$PROGRAM" != "all" ]]; then
   if ! [[ "$PROGRAM" =~ ^(logisim|venus)$ ]]; then
